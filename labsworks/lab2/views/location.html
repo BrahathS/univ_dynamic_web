@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome to <%=shopName%></title>
+  </head>
+  <body>
+    <h1><%=shopName%> Shop</h1>
+    <h2>We are available across the town:</h2>
+    <ul>
+      <% for(let i = 0; i < locationStores.length; i++) { %>
+        <li><%= locationStores[i] %></li>
+      <% } %>
+    </ul>
+    </body>
+</html>

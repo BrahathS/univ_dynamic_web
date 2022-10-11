@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>About <%=shopName%></title>
+  </head>
+  <body>
+    <h1>About <%=shopName%></h1>
+    <p>We sell all sorts of books and nothing else!</p>
+	<ul>
+      <% for(let i = 0; i < availableBooks.length; i++) { %>
+        <li><%= availableBooks[i] %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>

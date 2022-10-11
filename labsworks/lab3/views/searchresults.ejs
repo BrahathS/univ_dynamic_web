@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Searching  </title>
+  </head>
+  <body>
+    <h1>Searched Results </h1>
+    
+       <ul>
+   	 <% for(let i = 0; i < newData.length; i++) { %>
+       	 <li><%= newData[i].name %> £ <%= newData[i].price%>	</li>
+     	 <% } %>
+       </ul>
+  </body>
+</html>
